@@ -1,4 +1,4 @@
-Hellow
+Hello
 
-This is a personal practice from the tutorial of RealPython
+This is a personal practice 
 https://realpython.com/python-requests/
