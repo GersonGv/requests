@@ -26,6 +26,21 @@ for url in ['https://api.github.com', 'https://api.github.com/invalid']:
     else:
         print('Success!')
 
+# To see the response's content in bytes, you use .content
+print()
+print('Response content using .content')
+print(response.content)
+
+# To see the response's content in text, you use .text
+print()
+print('Response content using .text')
+response.encoding = 'utf-8' # Optional: requests infers this internally
+print(response.text)
+
+# deserialize it using .json
+print()
+print('Response content using .content')
+print(response.json())
 
 
 
