@@ -7,13 +7,11 @@ print(response.status_code)
 
 # If you use a Response instance in a conditional expression, 
 # it will evaluate to True if the status code was between 200 and 400, and False otherwise.
-
 if response:
     print('Great it works')
 else:
-    print('mmm there´s a problem')
+    print("mmm there´s a problem")
 
-# 
 
 for url in ['https://api.github.com', 'https://api.github.com/invalid']:
     try:
